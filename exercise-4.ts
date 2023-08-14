@@ -7,11 +7,11 @@
 
 type Country = string;
 
-const country1: string = "Nigeria";
+const country1:Country = "Nigeria";
 
-const country2: string = "Italy";
+const country2: Country = "Italy";
 
-const country3: string = "China";
+const country3: Country = "China";
 
 // ----
 
