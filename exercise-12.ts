@@ -6,7 +6,7 @@
 // Use the generic interface type `ReadonlyArray`: ReadonlyArray<type>
 // This will cause a type error. Remove the code that now has a type error.
 
-const languages:readonly string[] = ["Mongolian", "French", "Basque", "Thai"];
+const languages:ReadonlyArray<string> = ["Mongolian", "French", "Basque", "Thai"];
 
 console.log(languages);
 
