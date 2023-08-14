@@ -4,7 +4,7 @@
 
 // Add types to this function declaration.
 
-function doubleThePopulation(value):any {
+function doubleThePopulation(value):string | number {
     return value * 2;
 }
 
